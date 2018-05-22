@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-440.0" y="8.0">PersonBuilder</node>
+    <node x="-87.5" y="8.0">Item</node>
+    <node x="-440.0" y="194.0">ItemCheckHandler</node>
+    <node x="-216.0" y="87.0">Newspaper</node>
+    <node x="-89.0" y="87.0">Book</node>
+    <node x="-121.0" y="-199.0">PersonCheckHandler</node>
+    <node x="-419.0" y="273.0">ItemCheck</node>
+    <node x="-90.5" y="-76.0">PersonCheck</node>
+    <node x="6.0" y="87.0">Journal</node>
+    <node x="-248.0" y="194.0">IOWrite</node>
+    <node x="-115.0" y="194.0">IORead</node>
+    <node x="-440.0" y="-199.0">Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Journal" target="Item">
+      <point x="0.0" y="-14.5" />
+      <point x="49.0" y="62.0" />
+      <point x="-27.5" y="62.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="Book" target="Item">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ItemCheck" target="ItemCheckHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PersonCheck" target="PersonCheckHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Newspaper" target="Item">
+      <point x="0.0" y="-14.5" />
+      <point x="-162.5" y="62.0" />
+      <point x="-75.5" y="62.0" />
+      <point x="-24.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="140.0" />
+  <SelectedNodes>
+    <node>PersonBuilder</node>
+    <node>Item</node>
+    <node>ItemCheckHandler</node>
+    <node>Newspaper</node>
+    <node>Book</node>
+    <node>PersonCheckHandler</node>
+    <node>ItemCheck</node>
+    <node>PersonCheck</node>
+    <node>Journal</node>
+    <node>IOWrite</node>
+    <node>IORead</node>
+    <node>Person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
